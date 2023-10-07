@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Wedding Planning Service",
+        "short_description": "Let us take care of every detail of your special day.",
+        "image_url": "https://i.ibb.co/5sVRhnq/wps.jpg",
+        "price": "3,000",
+        "full_image_url": "https://i.ibb.co/dQ4RzyP/wpsd.jpg",
+        "full_description": "Our wedding planning service includes everything you need to create the wedding of your dreams. From venue selection to coordination on your big day, we've got you covered."
+    },
+    {
+        "id": 2,
+        "title": "Catering and Food",
+        "short_description": "Delicious cuisine that will delight your guests.",
+        "image_url": "https://i.ibb.co/PwMp567/c-f.jpg",
+        "price": "50 per person",
+        "full_image_url": "https://i.ibb.co/fkZt4kG/c-fd.jpg",
+        "full_description": "Indulge in a culinary experience that will leave your guests raving. Our catering services offer a diverse menu selection to satisfy every palate."
+    },
+    {
+        "id": 3,
+        "title": "Photography and Videography",
+        "short_description": "Capture every moment beautifully.",
+        "image_url": "https://i.ibb.co/12wbWwZ/p-v.jpg",
+        "price": "2,500",
+        "full_image_url": "https://i.ibb.co/gTqdyvd/p-vd.jpg",
+        "full_description": "Our skilled photographers and videographers are dedicated to preserving the precious moments of your wedding day. From candid shots to elegant portraits, we've got it all covered."
+    },
+    {
+        "id": 4,
+        "title": "Venue and Decor",
+        "short_description": "Elegant venues and stunning decorations.",
+        "image_url": "https://i.ibb.co/dcbMVhw/vd.jpg",
+        "price": "5,000",
+        "full_image_url": "https://i.ibb.co/XZ2sgTM/vdd.jpg",
+        "full_description": "Select from a range of breathtaking venues and let our expert decorators transform your space into a fairytale setting that perfectly reflects your style and vision."
+    },
+    {
+        "id": 5,
+        "title": "Wedding Entertainment",
+        "short_description": "Create memorable moments with music and entertainment.",
+        "image_url": "https://i.ibb.co/HgHsx4F/we.jpg",
+        "price": "1,500",
+        "full_image_url": "https://i.ibb.co/fq6MfJM/wed.jpg",
+        "full_description": "From live bands to DJs, our entertainment options will keep your guests dancing and celebrating throughout the night. It's all about creating unforgettable memories."
+    },
+    {
+        "id": 6,
+        "title": "Floral Arrangements",
+        "short_description": "Beautiful flowers to enhance your special day.",
+        "image_url": "https://i.ibb.co/qCX0rb2/fa.jpg",
+        "price": "1,000",
+        "full_image_url": "https://i.ibb.co/19bnt5t/fad.jpg",
+        "full_description": "Our exquisite floral arrangements add a touch of elegance and romance to your wedding day. From bouquets to centerpieces, we create floral magic."
+    }
+]
