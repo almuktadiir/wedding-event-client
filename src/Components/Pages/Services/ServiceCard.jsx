@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 
 const ServiceCard = ({ service }) => {
@@ -18,16 +19,13 @@ const ServiceCard = ({ service }) => {
                 <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                     {title}
                 </h4>
-                <p className="mb-4 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-                    Like so many organizations these days, Autodesk is a company in
-                    transition. It was until recently a traditional boxed software company
-                    selling licenses. Yet its own business model disruption is only part of
-                    the story
+                <p className="mb-4 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased text-justify">
+                    {short_description}
                 </p>
-                <h6 className="mb-4 block text-base font-semibold leading-relaxed tracking-normal text-pink-500 antialiased">
-                    startups
+                <h6 className="mb-4 block text-base font-semibold leading-relaxed tracking-normal text-pink-400 antialiased">
+                    Rate: $ {price}
                 </h6>
-                <Link to={`/service/${id}`} className=" text-right" href="#">
+                <Link to={`/service/${id}`} className="text-right" href="#" service={service}>
                     <button
                         className="flex justify-end select-none items-end gap-2 rounded-lg align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
@@ -56,3 +54,7 @@ const ServiceCard = ({ service }) => {
 };
 
 export default ServiceCard;
+
+ServiceCard.propTypes = {
+    service: PropTypes.object
+}

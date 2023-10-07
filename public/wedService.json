@@ -2,55 +2,55 @@
     {
         "id": 1,
         "title": "Wedding Planning Service",
-        "short_description": "Let us take care of every detail of your special day.",
+        "short_description": "Our wedding planning service includes everything you need to create the wedding of your dreams. From venue selection to coordination on your big day, we've got you covered.",
         "image_url": "https://i.ibb.co/5sVRhnq/wps.jpg",
         "price": "3,000",
         "full_image_url": "https://i.ibb.co/dQ4RzyP/wpsd.jpg",
-        "full_description": "Our wedding planning service includes everything you need to create the wedding of your dreams. From venue selection to coordination on your big day, we've got you covered."
+        "full_description": "Let our expert wedding planners turn your dream wedding into a beautiful reality. With meticulous attention to detail, we'll handle every aspect of your special day, from venue selection and decor to coordinating the ceremony and reception. Relax and enjoy the journey while we bring your unique vision to life. Our team is dedicated to creating a seamless and unforgettable experience, ensuring that your wedding day is filled with love, joy, and cherished memories. Trust us to make your dream wedding a stress-free and magical celebration of your love story."
     },
     {
         "id": 2,
         "title": "Catering and Food",
-        "short_description": "Delicious cuisine that will delight your guests.",
+        "short_description": "Delicious cuisine that will delight your guests.Indulge in a culinary experience that will leave your guests raving. Our catering services offer a diverse menu selection to satisfy every palate.",
         "image_url": "https://i.ibb.co/PwMp567/c-f.jpg",
         "price": "50 per person",
         "full_image_url": "https://i.ibb.co/fkZt4kG/c-fd.jpg",
-        "full_description": "Indulge in a culinary experience that will leave your guests raving. Our catering services offer a diverse menu selection to satisfy every palate."
+        "full_description": "Delight your guests with an unforgettable culinary experience. Our diverse menu offerings are designed to satisfy every palate, from delectable appetizers to mouthwatering entrees and decadent desserts. Our culinary team crafts each dish with precision and flair, ensuring that your wedding reception is a feast of flavors and a celebration of delicious cuisine."
     },
     {
         "id": 3,
         "title": "Photography and Videography",
-        "short_description": "Capture every moment beautifully.",
+        "short_description": "Capture every moment beautifully. Our skilled photographers and videographers are dedicated to preserving the precious moments of your wedding day. From candid shots to elegant portraits, we've got it all covered.",
         "image_url": "https://i.ibb.co/12wbWwZ/p-v.jpg",
         "price": "2,500",
         "full_image_url": "https://i.ibb.co/gTqdyvd/p-vd.jpg",
-        "full_description": "Our skilled photographers and videographers are dedicated to preserving the precious moments of your wedding day. From candid shots to elegant portraits, we've got it all covered."
+        "full_description": "Capture the beauty and emotion of your wedding day with our skilled photographers and videographers. We specialize in preserving every heartfelt moment, from candid shots that reveal genuine emotions to stunningly composed portraits. Our team's expertise and artistic vision will ensure that you have a collection of timeless photos and videos that allow you to relive the magic of your wedding day."
     },
     {
         "id": 4,
         "title": "Venue and Decor",
-        "short_description": "Elegant venues and stunning decorations.",
+        "short_description": "Elegant venues and stunning decorations. Select from a range of breathtaking venues and let our expert decorators transform your space into a fairytale setting that perfectly reflects your style and vision.",
         "image_url": "https://i.ibb.co/dcbMVhw/vd.jpg",
         "price": "5,000",
         "full_image_url": "https://i.ibb.co/XZ2sgTM/vdd.jpg",
-        "full_description": "Select from a range of breathtaking venues and let our expert decorators transform your space into a fairytale setting that perfectly reflects your style and vision."
+        "full_description": "Create a fairytale setting that reflects your style and vision with our elegant venues and exquisite decor. Whether you envision a romantic garden wedding, a classic ballroom affair, or a rustic outdoor celebration, our venues provide the perfect backdrop. Our talented decorators will transform your chosen space into a captivating and enchanting environment, making your wedding dreams come true"
     },
     {
         "id": 5,
         "title": "Wedding Entertainment",
-        "short_description": "Create memorable moments with music and entertainment.",
+        "short_description": "Create memorable moments with music and entertainment. From live bands to DJs, our entertainment options will keep your guests dancing and celebrating throughout the night. It's all about creating unforgettable memories.",
         "image_url": "https://i.ibb.co/HgHsx4F/we.jpg",
         "price": "1,500",
         "full_image_url": "https://i.ibb.co/fq6MfJM/wed.jpg",
-        "full_description": "From live bands to DJs, our entertainment options will keep your guests dancing and celebrating throughout the night. It's all about creating unforgettable memories."
+        "full_description": "Make your wedding day memorable with our exceptional entertainment options. From live bands that get the dance floor moving to talented DJs who curate the perfect playlist, our entertainment professionals ensure that your guests are celebrating all night long. We offer a range of music styles and entertainment choices to cater to your preferences, guaranteeing an unforgettable evening filled with laughter, dancing, and joy"
     },
     {
         "id": 6,
         "title": "Floral Arrangements",
-        "short_description": "Beautiful flowers to enhance your special day.",
+        "short_description": "Beautiful flowers to enhance your special day. Our exquisite floral arrangements add a touch of elegance and romance to your wedding day. From bouquets to centerpieces, we create floral magic.",
         "image_url": "https://i.ibb.co/qCX0rb2/fa.jpg",
         "price": "1,000",
         "full_image_url": "https://i.ibb.co/19bnt5t/fad.jpg",
-        "full_description": "Our exquisite floral arrangements add a touch of elegance and romance to your wedding day. From bouquets to centerpieces, we create floral magic."
+        "full_description": "Elevate your special day with our exquisite floral arrangements. Our skilled florists create stunning bouquets, centerpieces, and decorative accents that add an element of elegance and romance to your wedding. From classic roses to unique, handcrafted designs, our floral arrangements are designed to match your style and color scheme, enhancing the beauty of your ceremony and reception spaces."
     }
 ]

@@ -20,7 +20,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/service/:id',
-                element: <ServiceCardDetails></ServiceCardDetails>
+                element: <ServiceCardDetails></ServiceCardDetails>,
+                loader: ()=> fetch('/wedService.json')
             },
             {
                 path: '/invitation',
