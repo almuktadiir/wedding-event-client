@@ -7,6 +7,7 @@ import Login from "../Components/Pages/Login/Login";
 import Register from "../Components/Pages/Register/Register";
 import ServiceCardDetails from "../Components/Pages/Services/ServiceCardDetails";
 import InviteCardDetails from "../Components/Pages/Invitations/InviteCardDetails";
+import PrivateRoutes from "./PrivateRoutes/PrivateRoutes";
 
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/service/:id',
-                element: <ServiceCardDetails></ServiceCardDetails>,
+                element: <PrivateRoutes><ServiceCardDetails></ServiceCardDetails></PrivateRoutes>,
                 loader: ()=> fetch('/wedService.json')
             },
             {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/invite/:id',
-                element: <InviteCardDetails></InviteCardDetails>,
+                element: <PrivateRoutes><InviteCardDetails></InviteCardDetails></PrivateRoutes>,
                 loader: () => fetch('/cakeInvite.json')
             },
             {

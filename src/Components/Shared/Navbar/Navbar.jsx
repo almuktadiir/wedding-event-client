@@ -1,9 +1,19 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from '../../../assets/wed-logo2.png'
-import './Navbar.css'
+import logo from '../../../assets/wed-logo2.png';
+import './Navbar.css';
+import userDefaultPic from '../../../assets/user.png'
+import { useContext } from "react";
+import { AuthContext } from "../../../AuthProvider/AuthProvider";
 
 
 const Navbar = () => {
+    const { user, LogOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        LogOut()
+            .then(res => console.log(res.user))
+            .catch(err => console.log(err))
+    }
 
     const navLinks = <>
         <li><NavLink className={({ isActive, isPending }) =>
@@ -14,9 +24,9 @@ const Navbar = () => {
             isPending ? "pending" : isActive ? 'bg-[#ee62a8] text-white font-semibold' : ""
         } to={`/invitation`}>Invitations</NavLink></li>
 
-        <li><NavLink className={({ isActive, isPending }) =>
+        {/* <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? 'bg-[#ee62a8] text-white font-semibold' : ""
-        } to={`/login`}>Login</NavLink></li>
+        } to={`/login`}>Login</NavLink></li> */}
     </>
 
     return (
@@ -39,11 +49,30 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
+
                 <div className="navbar-end">
-                    <Link to={'/login'} className="btn btn-sm bg-[#ee62a8] text-white px-5 border-0">Login with Google</Link>
+                    {
+                        user ?
+                                < div className="flex items-center justify-end">
+                                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                        <div className="w-10 rounded-full">
+                                            <img src={userDefaultPic} />
+                                        </div>
+                                    </label>
+                                    <div>
+                                        <Link onClick={handleLogOut} className="btn btn-sm bg-[#ee62a8] text-white px-5 border-0">Logout</Link>
+                                    </div>
+                                </div>
+                            :
+                            <div className="">
+                                <div>
+                                    <Link to={'/login'} className="btn btn-sm bg-[#ee62a8] text-white px-5 border-0">Login</Link>
+                                </div>
+                            </div>
+                    }
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
