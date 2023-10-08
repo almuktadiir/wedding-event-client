@@ -34,6 +34,7 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                toast('SignUp Successfull');
             })
             .catch(err => {
                 const error = err.message;
@@ -43,7 +44,7 @@ const Register = () => {
     }
 
     return (
-        <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none text-center">
+        <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none text-center my-10">
             <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Sign Up
             </h4>

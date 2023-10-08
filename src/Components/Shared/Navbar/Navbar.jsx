@@ -30,7 +30,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="">
+        <div className="border-b-pink-100 border-b shadow-sm">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../AuthProvider/AuthProvider";
 import { FaGoogle } from 'react-icons/fa';
+import { ToastContainer, toast } from "react-toastify";
 
 
 const Login = () => {
@@ -18,16 +19,18 @@ const Login = () => {
         const password = form.get('password');
         console.log(email, password);
 
-        
+
         createLogin(email, password)
             .then(res => {
                 const user = res.user;
                 console.log(user);
 
+                // current location navigate after user logged in
                 navigate(location?.state ? location.state : '/')
             })
             .catch(err => {
                 console.log(err.message);
+                toast('Invalid login credentials')
             })
     }
 
@@ -91,15 +94,16 @@ const Login = () => {
                         </Link>
                     </p>
                 </div>
+                <ToastContainer></ToastContainer>
             </form>
 
             {/* google login */}
-            <div className="my-4 text-center border-t border-pink-500">
-
-                <button className="btn btn-outline btn-secondary my-6">
+            <div className="my-4 text-center border-t-pink-500 bg-pink-50">
+                <button className="btn btn-outline border-pink-500 text-[#ee62a8ff] hover:bg-[#ee62a8ff] hover:border-0 my-6 ">
                     <FaGoogle></FaGoogle>
                     SignIn With Google</button>
             </div>
+            
         </div>
     );
 };
