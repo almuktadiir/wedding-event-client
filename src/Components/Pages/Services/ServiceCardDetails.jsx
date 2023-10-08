@@ -24,7 +24,8 @@ const ServiceCardDetails = () => {
                             <h2 className="text-lg ">{full_description}</h2>
                         </div>
                     </div>
-                    <div></div>
+                    <div>
+                    </div>
                 </div>
             </div>
         </>

@@ -6,6 +6,7 @@ import Invitations from "../Components/Pages/Invitations/Invitations";
 import Login from "../Components/Pages/Login/Login";
 import Register from "../Components/Pages/Register/Register";
 import ServiceCardDetails from "../Components/Pages/Services/ServiceCardDetails";
+import InviteCardDetails from "../Components/Pages/Invitations/InviteCardDetails";
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
             {
                 path: '/invitation',
                 element: <Invitations></Invitations>
+            },
+            {
+                path: '/invite/:id',
+                element: <InviteCardDetails></InviteCardDetails>,
+                loader: () => fetch('/cakeInvite.json')
             },
             {
                 path: '/login',
