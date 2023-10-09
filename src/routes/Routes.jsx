@@ -8,6 +8,7 @@ import Register from "../Components/Pages/Register/Register";
 import ServiceCardDetails from "../Components/Pages/Services/ServiceCardDetails";
 import InviteCardDetails from "../Components/Pages/Invitations/InviteCardDetails";
 import PrivateRoutes from "./PrivateRoutes/PrivateRoutes";
+import WedCakes from "../Components/Pages/WedCake/WedCakes";
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path: '/wedcake',
+                element: <WedCakes></WedCakes>
             }
         ]
     }

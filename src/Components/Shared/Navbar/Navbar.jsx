@@ -1,7 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../../assets/wed-logo2.png';
 import './Navbar.css';
-import userDefaultPic from '../../../assets/user.png'
 import { useContext } from "react";
 import { AuthContext } from "../../../AuthProvider/AuthProvider";
 
@@ -24,9 +23,9 @@ const Navbar = () => {
             isPending ? "pending" : isActive ? 'bg-[#ee62a8] text-white font-semibold' : ""
         } to={`/invitation`}>Invitations</NavLink></li>
 
-        {/* <li><NavLink className={({ isActive, isPending }) =>
+        <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? 'bg-[#ee62a8] text-white font-semibold' : ""
-        } to={`/login`}>Login</NavLink></li> */}
+        } to={`/wedcake`}>Wedding Cakes</NavLink></li>
     </>
 
     return (
@@ -52,15 +51,18 @@ const Navbar = () => {
 
                 <div className="navbar-end">
                     {
-                        user ?
+                        user?.email ?
                                 < div className="flex items-center justify-end">
                                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                         <div className="w-10 rounded-full">
-                                            <img src={userDefaultPic} />
+                                            <img src={user.photoURL} />
                                         </div>
                                     </label>
                                     <div>
-                                        <Link onClick={handleLogOut} className="btn btn-sm bg-[#ee62a8] text-white px-5 border-0">Logout</Link>
+                                        <p  className="text-black mx-1 border-0">{user.displayName}</p>
+                                    </div>
+                                    <div>
+                                        <Link onClick={handleLogOut} className="btn btn-sm bg-[#ee62a8] text-xs text-white px-2 border-0">Logout</Link>
                                     </div>
                                 </div>
                             :
