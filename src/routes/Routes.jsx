@@ -9,6 +9,7 @@ import ServiceCardDetails from "../Components/Pages/Services/ServiceCardDetails"
 import InviteCardDetails from "../Components/Pages/Invitations/InviteCardDetails";
 import PrivateRoutes from "./PrivateRoutes/PrivateRoutes";
 import WedCakes from "../Components/Pages/WedCake/WedCakes";
+import WedCakesDetails from "../Components/Pages/WedCake/WedCakesDetails";
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,11 @@ const router = createBrowserRouter([
             {
                 path: '/wedcake',
                 element: <WedCakes></WedCakes>
+            },
+            {
+                path: '/wedcake/:id',
+                element: <PrivateRoutes><WedCakesDetails></WedCakesDetails></PrivateRoutes>,
+                loader: () => fetch('/wedcake.json')
             }
         ]
     }

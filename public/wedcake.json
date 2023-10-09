@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1001",
+        "cake_image": "https://i.ibb.co/5GwRs2x/chocolate-wedding-cakes.jpg",
+        "price": "150",
+        "cake_title": "Chocolate Wedding Cakes",
+        "cake_details": "Chocolate wedding cakes are a dream come true for chocoholics. These delectable creations feature rich chocolate layers and are typically covered in luxurious chocolate ganache or frosting. Decorative elements like chocolate curls, truffles, or cocoa powder may adorn these cakes, adding to their decadence. Chocolate wedding cakes are a delightful choice for those who want to infuse their celebration with the deep, indulgent flavor of chocolate, making them a sweet and memorable addition to any wedding reception." 
+    },
+    {
+        "id": "1002",
+        "cake_image": "https://i.ibb.co/hRcp4pj/savoury-wedding-cakes.jpg",
+        "price": "120",
+        "cake_title": "Savoury Wedding Cakes",
+        "cake_details": "Savory wedding cakes offer a unique departure from sweet traditions. These cakes are crafted using savory ingredients like cheese, vegetables, or even meats, resembling the appearance of a layered cake. Savory cakes are often served during the cocktail hour or as appetizers, providing a savory and unexpected culinary experience for guests. They can be an excellent choice for couples who prefer savory flavors or wish to surprise and delight their wedding attendees with a departure from the sweet norm." 
+    },
+    {
+        "id": "1003",
+        "cake_image": "https://i.ibb.co/whwtsXy/cuttingbar-testing-cakes.jpg",
+        "price": "180",
+        "cake_title": "Cuttingbar Testing Cakes",
+        "cake_details": "The term 'Cutting Bar Testing Cakes' doesn't seem to be a standard phrase in the context of wedding cakes. It's possible you might be referring to cake tastings, where couples sample various cake flavors and designs to make an informed decision about their wedding cake. These tastings are a crucial part of the cake selection process and help couples find the perfect cake that aligns with their preferences." 
+    },
+    {
+        "id": "1004",
+        "cake_image": "https://i.ibb.co/7k9b1Wd/cupcakes.jpg",
+        "price": "160",
+        "cake_title": "Cupcakes for Wedding",
+        "cake_details": "Cupcakes have gained popularity as a charming and convenient alternative to traditional wedding cakes. They offer individual servings and can be artfully displayed on tiered cupcake stands. Cupcakes come in a wide array of flavors and can be customized to match the wedding's theme and color scheme. This choice allows guests to pick their favorite flavors, adding a delightful element of choice to the celebration while still capturing the essence of a traditional wedding dessert." 
+    },
+    {
+        "id": "1005",
+        "cake_image": "https://i.ibb.co/4Tv1GDW/contemporary-wedding-cake.jpg",
+        "price": "180",
+        "cake_title": "Contemporary Wedding Cakes",
+        "cake_details": "Contemporary wedding cakes break away from convention, embracing modern design trends and innovative flavors. These cakes can vary widely in style, incorporating bold colors, metallic accents, and unconventional shapes. Couples often opt for unique and adventurous flavors like matcha, chai, or citrus-infused cakes. Contemporary wedding cakes allow couples to make a statement and showcase their individuality, reflecting their personal tastes and the latest trends in cake design." 
+    },
+    {
+        "id": "1006",
+        "cake_image": "https://i.ibb.co/h7wmpwV/traditional-wedding-cake.jpg",
+        "price": "160",
+        "cake_title": "Traditional Weddng Cakes",
+        "cake_details": "Traditional wedding cakes are the epitome of timeless elegance. These cakes typically feature multiple tiers adorned with intricate designs, often incorporating elements like lace patterns, sugar flowers, and beautifully piped icing. They are usually presented in classic white or ivory hues and come in traditional flavors such as vanilla, almond, chocolate, or fruitcake. Traditional wedding cakes have a long history of being the centerpiece at wedding receptions, symbolizing the couple's commitment to a sweet future together." 
+    }
+]
