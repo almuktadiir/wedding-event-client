@@ -5,6 +5,8 @@ import { useContext } from "react";
 import { AuthContext } from "../../../AuthProvider/AuthProvider";
 
 
+
+
 const Navbar = () => {
     const { user, LogOut } = useContext(AuthContext);
 

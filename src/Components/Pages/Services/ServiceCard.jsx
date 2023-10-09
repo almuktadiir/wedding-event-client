@@ -7,7 +7,7 @@ const ServiceCard = ({ service }) => {
     const { id, title, short_description, image_url, price } = service;
 
     return (
-        <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-pink-100 bg-clip-border text-gray-700 shadow-md">
+        <div data-aos="fade-up" data-aos-duration="2000" className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-pink-100 bg-clip-border text-gray-700 shadow-md">
             <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                 <img
                     src={image_url}

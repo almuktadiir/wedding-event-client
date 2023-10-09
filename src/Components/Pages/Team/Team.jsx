@@ -4,7 +4,7 @@ const Team = () => {
     return (
         <>
             <h2 className="font-wedding text-center text-5xl font-semibold mb-10 text-[#ee62a8ff]">Our Team</h2>
-            <div className="py-40 bg-pink-100 rounded-xl shadow-lg">
+            <div className="py-40 bg-pink-100 rounded-xl shadow-lg" data-aos="zoom-in" data-aos-duration="2000">
                 <div className="flex flex-col mx-auto md:flex-row items-center -space-x-4 justify-center">
                     <img
                         alt="user 1"

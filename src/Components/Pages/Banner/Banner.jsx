@@ -1,8 +1,11 @@
 import bg from '../../../assets/banner.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${bg})` }}>
+        <div className="hero min-h-screen" style={{ backgroundImage: `url(${bg})` }} data-aos="zoom-in" data-aos-duration="2000">
             <div className="hero-overlay bg-opacity-30"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-3xl">
