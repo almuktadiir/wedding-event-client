@@ -15,7 +15,7 @@ const ServiceCardDetails = () => {
     return (
         <>
             <div className="max-w-7xl mx-auto mt-5">
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
                     <div className="col-span-3">
                         <img className="w-full h-[30rem] rounded-lg" src={full_image_url} alt="" />
                         <div className="my-3 px-6 rounded-lg pb-10 bg-pink-100">

@@ -5,7 +5,7 @@ const Team = () => {
         <>
             <h2 className="font-wedding text-center text-5xl font-semibold mb-10 text-[#ee62a8ff]">Our Team</h2>
             <div className="py-40 bg-pink-100 rounded-xl shadow-lg">
-                <div className="flex items-center -space-x-4 justify-center">
+                <div className="flex flex-col mx-auto md:flex-row items-center -space-x-4 justify-center">
                     <img
                         alt="user 1"
                         src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
@@ -33,11 +33,13 @@ const Team = () => {
                     />
                 </div>
                 <div className="flex justify-center mt-4 font-semibold text-xl">
+                    <div className="hidden lg:flex">
                     <p className="px-14">Roy</p>
                     <p className="px-14">Melisa</p>
                     <p className="px-14">Tessa</p>
                     <p className="px-14">kevin</p>
                     <p className="px-14">John</p>
+                    </div>
                 </div>
             </div>
         </>
