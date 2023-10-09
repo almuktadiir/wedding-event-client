@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
         <div className="mt-28 mb-20">
-            <h2 className="font-wedding text-center text-5xl font-semibold mb-10 text-[#ee62a8ff]">Wedding Services</h2>
+            <h2 className="font-wedding text-center text-5xl font-semibold mb-10 text-[#ee62a8ff]">Wedding Event Services</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {
                     services?.map(service => <ServiceCard
