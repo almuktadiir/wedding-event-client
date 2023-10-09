@@ -1,3 +1,7 @@
+# Live site link
+- https://event-management-8871d.web.app/
+
+
 # About Project Features & Functionalities
 
 - User Authentication: Using firebase to improve the authentication system, allowing users to log in, sign up, and manage their accounts.

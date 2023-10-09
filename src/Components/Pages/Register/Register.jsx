@@ -167,7 +167,7 @@ const Register = () => {
                     type="submit"
                     data-ripple-light="true"
                 >
-                    Register
+                    Sign Up
                 </button>
 
                 {/* toggle route */}
