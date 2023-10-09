@@ -91,7 +91,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                             :
-                            <div className="">
+                            <div className="flex items-center justify-end">
                                 <div>
                                     <Link to={'/login'} className="btn btn-sm bg-[#ee62a8] text-white px-5 border-0">Login</Link>
                                 </div>
